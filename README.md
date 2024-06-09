@@ -1,7 +1,7 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to run this locally
+Open a new command line interface. Navigate to the "uifry" directory. Execute the command npm start.
 ## Key learnings from this assessment
 # Html
 * Use of various tags such as div, img, input, etc

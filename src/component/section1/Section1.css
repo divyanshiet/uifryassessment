@@ -1,0 +1,50 @@
+
+.buts
+{
+    display: flex;
+    gap: 15px;
+}
+.b2{
+    
+    background-color: white;
+    border: white;
+}
+.b2 a{
+    
+    color: black;
+}
+.ct2
+{
+    position: absolute;
+    display: flex;
+    gap:70px;
+    left:180px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.ct
+{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.images
+{
+    position: relative;
+}
+.d1
+{
+    position: absolute;
+    top:-80px;
+}
+.d2
+{
+    position: absolute;
+    top:-165px;
+}
+.d3
+{
+    position: absolute;
+    top:-55px;
+}

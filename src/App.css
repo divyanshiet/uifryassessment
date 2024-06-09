@@ -1,0 +1,15 @@
+.s1
+{
+    display: flex;
+    width: 64px;
+    height: 64px;
+    margin-left: 89%;
+    margin-top: -75px;
+}
+.s2
+{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin-left: 9%;
+}

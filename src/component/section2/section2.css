@@ -1,0 +1,23 @@
+body{
+    height: 1500px;
+    position: relative;
+}
+.bgimg
+{
+    position: absolute;
+    display: flex;
+    gap: 570px;
+    left: 70px;
+}
+.main
+{
+    
+    padding: 30px;
+    margin-top: 830px;
+    
+}
+.maco
+{
+    position: absolute;
+    left: 70px;
+}

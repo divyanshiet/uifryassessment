@@ -1,0 +1,16 @@
+.ellipses
+{
+    position: relative;
+}
+.e1
+{
+    position: absolute;    
+    top:-90px;
+    left: 300px;      
+}
+.e2
+{
+    position: absolute;
+    top: -30px; 
+    left: 280px;
+}

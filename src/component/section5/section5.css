@@ -1,0 +1,43 @@
+.parsec5
+{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-left: 200px;
+    gap: 20px;
+}
+.r1
+{
+    display: flex;
+    flex-direction: column;
+}
+.pcard
+{
+    background-color: var(--faq);
+    width: 400px;
+    height: 80px;
+    border-radius: 5px;
+    color: var(--faqc);
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.p1card
+{
+    background-color: var(--bcolor);
+    width: 400px;
+    height: 80px;
+    border-radius: 5px;
+    color: var(--bccolor);
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.r2
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 20px;
+}

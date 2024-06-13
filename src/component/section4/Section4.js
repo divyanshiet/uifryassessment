@@ -1,23 +1,23 @@
-import './section3.css'
+import './section4.css'
 import i1 from './i1.svg'
 import i12 from './i12.svg'
-import bellicon from './bellicon.svg'
+import bellicon2 from './bellicon2.svg'
 export default function Section2() {
     return (
         <>
-            <div className="mainsection1">
+            <div className="mainsection3">
+            <div className="p1">
+                    <div className="i13"><img src={i1}></img></div>
+                    <div className="i12"><img src={i12}></img></div>
+                </div>
                 <div className="p2">
-                    <div className="co1">
-                        <div className="co11">ADVANTAGES</div>
-                        <div className="co12">Why Choose Uifry?</div>
-                    </div>
                     <div className="co2">
                         <div className="headin">
                             <div className="symbol">
-                            <img src={bellicon}></img>
+                            <img src={bellicon2}></img>
                             </div>
                             <div className="cont">
-                             Clever Notifications
+                             Fully Customizable
                             </div>
                         </div>
                         <div className="conte">
@@ -28,10 +28,6 @@ export default function Section2() {
                         <div className="co21">eget ac dolor neque lorem sapien, suspendisse aliquam.</div>
                         </div>
                     </div>
-                </div>
-                <div className="p13">
-                    <div className="i1"><img src={i1}></img></div>
-                    <div className="i123"><img src={i12}></img></div>
                 </div>
             </div>
         </>

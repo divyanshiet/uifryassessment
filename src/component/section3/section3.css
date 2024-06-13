@@ -1,94 +1,53 @@
- 
-.bimg
-{
-    position: absolute;
-    top: 1400px;
-    left: 100px;
+body{
+    font-family: 'Ubuntu';
 }
-
- .mn
+.mainsection1
 {
     position: relative;
-    padding: 30px;
-    margin-top: 830px;
-    
-}
-.reim
-{
-    position: absolute;
-    left: 70px;
-    top: 1150px;
-}
-.faq
-{
-    position: absolute;
-    top:2100px;
-    left:170px;
-} 
-/* .lse
-{
-    position: absolute;
-    top: 2880px;
-    left: 220px;
-}  */
- .mp
- {  display: flex;
-    gap:50px;
-    position: relative;
+    display: flex;
     height: 550px;
-    width: 1100px;
-    background-color: black;
-    left: 180px;
-    top: 2900px;
-    border-radius: 10px;
- }
- .l1
+    gap: 100px;
+    margin-left: 200px;
+}
+.i123
 {
     position: absolute;
-    top:230px;
+    top: -100px;
 }
-
-.img1
-{
-    position: absolute;
-    left:750px;
-}
-.img2
-{
-    position: absolute;
-    left:690px;
-}
-.img3
-{
-    position: absolute;
-    left:598px;
-    top:50px;
-}
-.co
+.p2
 {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top:150px;
-    gap:15px;
-    left: 50px;
+    margin-top: 130px;
+    gap: 25px;
 }
-.downbt
+.headin
 {
-    background-color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--section1c1);
 }
-.downbt a{
-    color: black;
-}
-.s7
+.conte
 {
-    position: absolute;
-    left:608px;
-    top:40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--section1c2);
 }
-.s6
+.co21
 {
-    position: absolute;
-    top:350px;
-    left: 300px;
+    font-size: 18px;
+}
+.co2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.p13
+{
+    margin-top: -50px;
 }

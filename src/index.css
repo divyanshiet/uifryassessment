@@ -1,13 +1,54 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App
+{
+  background-color: var(--bgcolor);
+  width: 100%;
+  height: 100%;
+}
+[data-theme="Dark"]
+{
+  --bgcolor: #696565;
+  --bcolor: #ffffff;
+  --bccolor: #000000;
+  --bc2color: #ffffff;
+  --b2color: #000000;
+  --section1c1: #ffffff;
+  --section1c2:#ffffff;
+  --faq:#ffffff;
+  --faqc:#FF5555;
+}
+[data-theme="Light"]
+{
+  --bgcolor:#ffffff;
+  --bccolor: #ffffff;
+  --bcolor: #000000;
+  --b2color: #ffffff;
+  --bc2color: #000000;
+  --section1c1: #000000;
+  --section1c2:#696565;
+  --faq:#FF5555;
+  --faqc:#000000;
+}
+button{
+  font-family: 'Ubuntu';
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px var(--bcolor);
+  background-color: var(--bcolor);
+}
+button a{
+   text-decoration: none;
+  font-size: 20px;
+  color: var(--bccolor);
+}
+.btn
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bcolor);
+  color: var(--bccolor);
 }

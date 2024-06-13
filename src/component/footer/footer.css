@@ -4,9 +4,8 @@
   position: relative;
   height: 350px;
   width: 1200px;
-  background-color: white;
-  left: 180px;
-  top: 3000px;
+  background-color: var(--bgcolor);
+  left: 200px;
   
 }
 .heading
@@ -37,11 +36,11 @@
     color:rgb(101, 97, 97);
     font-family: 'Ubuntu';
 }
-button a{
-  color: white;
-}
 .foot2
 {
   position: absolute;
   top:230px;
+}
+.di{
+    color: var(--bcolor);
 }

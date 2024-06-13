@@ -1,50 +1,55 @@
-
-.buts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.section1
 {
+    position: relative;
     display: flex;
-    gap: 15px;
+    height: 600px;
+    top:-40px;
+    margin-left: 200px;
+    gap: 90px;
+    width: auto;
 }
-.b2{
-    
-    background-color: white;
-    border: white;
-}
-.b2 a{
-    
-    color: black;
-}
-.ct2
-{
-    position: absolute;
-    display: flex;
-    gap:70px;
-    left:180px;
-    padding: 30px;
-    margin-top: 30px;
-}
-.ct
-{
-   
+.sec1{
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    font-family: 'Ubuntu';
+    gap: 25px;
+    
 }
-.images
+.c1
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--section1c1);
+}
+.c2
+{
+    color: var(--section1c2);
+    font-size: 20px;
+}
+.buttons
+{
+    display: flex;
+    gap:25px;
+}
+.sec2
 {
     position: relative;
 }
 .d1
 {
     position: absolute;
-    top:-80px;
+    top:-70px;
+    left: 50px;
 }
 .d2
 {
     position: absolute;
-    top:-165px;
+    top:-140px;
+
 }
 .d3
 {
+    top:-40px;
     position: absolute;
-    top:-55px;
 }
